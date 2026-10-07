@@ -1,0 +1,26 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>News – Match Desk</title><link rel="stylesheet" href="style.css"></head><body>
+<header class="top"><div class="in"><a class="brand" href="index.html">Match Desk</a>
+<nav><a href="index.html" aria-current="page">News</a><a href="standings.html">Standings</a><a href="fixtures.html">Fixtures</a><a href="stats.html">Stats</a><a href="convert.html">Convert</a></nav></div></header>
+<main>
+<div class="cols"><section><h1>Latest news</h1><p class="sub">Updated live</p>
+<!-- API: repeat one <a class="news"> per article; set style="background-image:url(...)" on .img -->
+<div class="grid" id="news-list">
+<a class="news" href="article.html?id=1"><div class="img"></div><div class="body"><time>2026-10-04</time><h3>News title goes here</h3><p class="meta">Short summary of the story.</p></div></a>
+<a class="news" href="article.html?id=2"><div class="img"></div><div class="body"><time>2026-10-04</time><h3>News title goes here</h3><p class="meta">Short summary of the story.</p></div></a>
+<a class="news" href="article.html?id=3"><div class="img"></div><div class="body"><time>2026-10-04</time><h3>News title goes here</h3><p class="meta">Short summary of the story.</p></div></a>
+</div></section>
+<aside>
+<div class="widget"><span class="label">Weather</span><img id="weather-icon" alt=""><span class="val" id="weather">30°</span></div>
+   <div class="widget stack">
+  <div class="row"><span class="label">USD</span><span class="val" id="usd-rate">0.00</span></div>
+  <div class="row"><span class="label">EUR</span><span class="val" id="eur-rate">0.00</span></div>
+  <div class="row"><span class="label">SAR</span><span class="val" id="sar-rate">0.00</span></div>
+</div>
+  
+<div class="widget"><span class="label">Time</span><span class="val" id="clock">00:00</span></div>
+</aside></div>
+</main>
+<script src="script.js"></script>
+<script src="weather.js"></script>
+<script src="currency.js"></script>
+</body></html>
