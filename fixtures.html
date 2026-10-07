@@ -1,0 +1,14 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Fixtures – Match Desk</title><link rel="stylesheet" href="style.css"></head><body>
+<header class="top"><div class="in"><a class="brand" href="index.html">Match Desk</a>
+<nav><a href="index.html">News</a><a href="standings.html">Standings</a><a href="fixtures.html" aria-current="page">Fixtures</a><a href="stats.html">Stats</a><a href="convert.html">Convert</a></nav></div></header>
+<main>
+<h1>Fixtures</h1><p class="sub">Pick a league and a date range</p>
+<div class="filters"><div><label for="league">League</label><select id="league"><option>Select league</option></select></div>
+<div><label for="from">Date from</label><input id="from" type="date"></div>
+<div><label for="to">Date to</label><input id="to" type="date"></div></div>
+<!-- API: one <div class="match"> per fixture; use <span class="live">Live</span> for matches in play -->
+<div id="fixtures-list">
+<div class="match"><div class="info"><span>League name</span><span>2026-10-04 · 18:00</span></div><span class="team">Home team</span><span class="score">0 : 0</span><span class="team">Away team</span></div>
+<div class="match"><div class="info"><span>League name</span><span class="live">Live 67'</span></div><span class="team">Home team</span><span class="score">1 : 0</span><span class="team">Away team</span></div>
+</div>
+</main></body></html>
